@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{
+	float: left;
+	padding: 0;
+	margin: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	overflow-y: hidden;
+	position: relative;
+	display: block;
+	width: 100%
+}
+
+.img_content{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	display: block;
+}

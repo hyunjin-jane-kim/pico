@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WMIT_touchscreen</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/jquery.rwdImageMaps.min.js"></script>
+	<script>
+		//function onDisplay(){
+			//document.getElementById(video01);
+			//$('.modal_wrap').addClass('active');
+		//}
+		function offDisplay() {
+			$('.modal_wrap').addClass('hide');
+		}
+		// addnDimLayer
+		function addnDimLayer() {
+			var createDiv = "<div id='dimLayer'></div>";
+			$("body").append(createDiv).addClass("fixed");
+		}
+		// closeModal
+		function closeModal() {
+			$(".modal_wrap").removeClass("active");
+			$("#dimLayer").remove();
+			$("body").removeClass("fixed");
+		}
+	function popup1(){
+		document.getElementById('video01').classList.add('active');
+	}
+	function popup2(){
+		document.getElementById('video02').classList.add('active');
+	}
+	function popup3(){
+		document.getElementById('video03').classList.add('active');
+	}
+	function popup4(){
+		document.getElementById('video04').classList.add('active');
+	}
+	function popup5(){
+		document.getElementById('video05').classList.add('active');
+	}
+	function popup6(){
+		document.getElementById('video06').classList.add('active');
+	}
+	function popup7(){
+		document.getElementById('video07').classList.add('active');
+	}
+	function popup8(){
+		document.getElementById('video08').classList.add('active');
+	}
+	function popup9(){
+		document.getElementById('video09').classList.add('active');
+	}
+	function popup10(){
+		document.getElementById('video10').classList.add('active');
+	}
+	function popup11(){
+		document.getElementById('video11').classList.add('active');
+	}
+	function popup12(){
+		document.getElementById('video12').classList.add('active');
+	}
+	function popup13(){
+		document.getElementById('video13').classList.add('active');
+	}
+	function popup14(){
+		document.getElementById('video14').classList.add('active');
+	}
+	function popup15(){
+		document.getElementById('video15').classList.add('active');
+	}
+	function linkA(){
+		var url = "http://jamber.kr/";
+		var name = "wonju";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkB(){
+		var url = "http://www.mcure.co.kr/";
+		var name = "mcure";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkC(){
+		var url = "http://mecamedi.com/";
+		var name = "mecamedi";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkD(){
+		var url = "https://www.miraclehealthcare.co.kr/";
+		var name = "miracle";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkE(){
+		var url = "http://hbotmedical.com/";
+		var name = "hbot";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkF(){
+		var url = "http://www.newpong.com/kor/";
+		var name = "newpong";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkG(){
+		var url = "https://www.philosyshealthcare.co.kr/";
+		var name = "phc";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkH(){
+		var url = "http://www.menfiskorea.com/";
+		var name = "menfis";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkI(){
+		var url = "https://www.picohdt.com/";
+		var name = "hdt";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkJ(){
+		var url = "https://www.credo-ltd.com/";
+		var name = "credo";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkK(){
+		var url = "http://yuwonmeditech.com/en/index.php";
+		var name = "yuwon";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+	function linkL(){
+		var url = "https://www.daiwha.com/";
+		var name = "daiwha";
+		var option = "width = 1920, height = 1080, top = 0, left = 0, location = no";
+		window.open(url, name, option);
+	}
+</script>
+</head>
+
+<body>
+	<!--영상div-->
+	<div id="video01" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/7gFeujufmZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video02" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/bWqroDPR1pw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video03" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/FGniyG1ZkJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video04" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/rMIj5eUC-ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video05" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/WN-P2DiQvFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video06" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/Kkyd33ber2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video07" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/I-qafZfMYEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video08" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/wo-bApDF8lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video09" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/aQS4fZfk02o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video10" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/OOJkpRwj92w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video11" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/WX8So_kYhVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video12" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/Y8ombS_aBVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video13" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/9Z4D5bXn4HM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video14" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/Zh8GbCDvV9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video15" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/WukpZNxw44g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<!--//영상div-->
+	<div>
+	   <img src="https://user-images.githubusercontent.com/100745433/158532782-544a7f6a-be18-41ec-afff-fba2bfe3c310.jpg" usemap="#sub-4"/>
+	   <map name="sub-4">
+		 <area shape="rect" coords="1787,40,1875,128" href="../WMIT_ts_home.html">
+		 <!--Homepage-->
+	     <area shape="rect" coords="308,298,460,370" href="javascript:linkA()">
+	     <area shape="rect" coords="310,375,459,449" href="javascript:linkB()">
+	     <area shape="rect" coords="464,375,537,448" href="javascript:linkC()">
+	     <area shape="rect" coords="542,374,615,448" href="javascript:linkD()">
+	     <area shape="rect" coords="543,604,770,677" href="javascript:linkE()">
+	     <area shape="rect" coords="310,831,458,904" href="javascript:linkF()">
+	     <area shape="rect" coords="1146,525,1298,598" href="javascript:linkG()">
+	     <area shape="rect" coords="1223,601,1298,676" href="javascript:linkH()">
+	     <area shape="rect" coords="1302,603,1374,676" href="javascript:linkI()">
+	     <area shape="rect" coords="1380,524,1453,598" href="javascript:linkJ()">
+	     <area shape="rect" coords="1379,601,1453,677" href="javascript:linkK()">
+		 <area shape="rect" coords="1458,525,1606,676" href="javascript:linkL()">
+		   <!--Promotional Video-->
+         <area shape="rect" coords="464,298,538,371" href="javascript:popup1()">
+	     <area shape="rect" coords="541,298,613,370" href="javascript:popup2()">
+	     <area shape="rect" coords="620,297,770,450" href="javascript:popup3()">
+	     <area shape="rect" coords="310,525,535,678" href="javascript:popup4()">
+	     <area shape="rect" coords="619,525,769,599" href="javascript:popup5()">
+	     <area shape="rect" coords="310,753,457,826" href="javascript:popup6()">
+	     <area shape="rect" coords="464,753,536,826" href="javascript:popup7()">
+	     <area shape="rect" coords="464,829,537,905" href="javascript:popup8()">
+	     <area shape="rect" coords="542,754,769,905" href="javascript:popup9()">
+	     <area shape="rect" coords="1304,297,1452,448" href="javascript:popup10()">
+	     <area shape="rect" coords="1458,297,1607,449" href="javascript:popup11()">
+	     <area shape="rect" coords="995,526,1144,675" href="javascript:popup12()">
+	     <area shape="rect" coords="1146,602,1218,677" href="javascript:popup13()">
+	     <area shape="rect" coords="1302,525,1376,599" href="javascript:popup14()">
+	     <area shape="rect" coords="993,752,1453,904" href="javascript:popup15()">
+       </map>
+</div>
+	
+</body>
+</html>

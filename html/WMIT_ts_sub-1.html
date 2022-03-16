@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WMIT_touchscreen</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/jquery.rwdImageMaps.min.js"></script>
+<script>
+	function spot(){
+		document.getElementById('spot').classList.add('active');
+	}
+	function popup15(){
+		document.getElementById('video15').classList.add('active');
+	}
+	function offDisplay() {
+			$('.modal_wrap').addClass('hide');
+	}
+	// addnDimLayer
+	function addnDimLayer() {
+		var createDiv = "<div id='dimLayer'></div>";
+		$("body").append(createDiv).addClass("fixed");
+	}
+	// closeModal
+	function closeModal() {
+		$(".modal_wrap").removeClass("active");
+		$("#dimLayer").remove();
+		$("body").removeClass("fixed");
+	}
+</script>
+</head>
+
+<body>
+	<div id="spot" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/qnRYCrBPa3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div id="video15" class="modal_wrap video_modal">
+		<div class="modal_header">
+			<a href="javascript:closeModal()"><button class="modal_x close_modal"></button></a>
+		</div>
+		<div class="modal_section">
+			<iframe src="https://www.youtube.com/embed/WukpZNxw44g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">					
+			</iframe>
+		</div>
+	</div>
+	<div>
+		<img src="https://user-images.githubusercontent.com/100745433/158532684-408f1720-9dd2-4c7a-aec6-f992b3ab8f3f.jpg" alt="" usemap="#Map"/>
+
+		<map name="Map">
+		 <area shape="rect" coords="236,852,648,973" href="javascript:spot()">
+		 <area shape="rect" coords="749,853,1161,973" href="javascript:popup15()">
+
+		 <area shape="rect" coords="1787,40,1875,128" href="../WMIT_ts_home.html">
+	   </map>
+	</div>
+</body>
+</html>
